@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-22T10:12:04.846Z" agent="5.0 (Windows)" etag="ZeCc9d9fl3aWR5sRj44w" version="13.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-23T06:32:51.212Z" agent="5.0 (Windows)" etag="udmcBcOTEUER-hE4ysd5" version="13.4.9" type="github">
   <diagram id="En-_3escWLUhismutuOt" name="第 1 页">
-    <mxGraphModel dx="716" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -168,7 +168,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-131" value="samples/renesas_taurus_client/taurus_client_sample.c" style="swimlane;fontStyle=0;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1070" width="490" height="600" as="geometry" />
+          <mxGeometry x="720" y="1080" width="490" height="600" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-145" value="struct rpmsg_driver taurus_sample_client" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-131">
           <mxGeometry x="80" y="50" width="240" height="130" as="geometry">
@@ -188,10 +188,10 @@
           <mxGeometry y="104" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-151" value="&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;How to write rpmsg drivers?&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;---------------------------&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;/b&gt;&lt;/font&gt;Documentation/rpmsg.txt&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;samples/rpmsg/rpmsg_client_sample.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;samples/renesas_taurus_client/taurus_client_sample.c&lt;br&gt;&lt;/div&gt;&lt;div&gt;drivers/gpu/drm/rcar-rvgc/rcar_rvgc_drv.c&lt;/div&gt;&lt;div&gt;drivers/net/can/rcar-taurus/rcar_taurus_can.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 0)&quot;&gt;TODO:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sound/soc/sh/rcar-taurus/*&lt;/div&gt;&lt;div&gt;-------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;module_rpmsg_driver(&lt;font color=&quot;#EA6B66&quot;&gt;&lt;i&gt;rpmsg_driver&lt;/i&gt;&lt;/font&gt;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; register_rpmsg_driver(rpmsg_driver)&lt;br&gt;&lt;/div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; __register_rpmsg_driver(rpmsg_driver, THIS_MODULE)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="120" y="750" width="490" height="270" as="geometry" />
+          <mxGeometry x="80" y="760" width="480" height="280" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-154" value="samples/rpmsg/rpmsg_client_sample.c" style="swimlane;fontStyle=0;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1110" width="570" height="780" as="geometry" />
+          <mxGeometry x="60" y="1070" width="570" height="730" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontColor=#000000;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-154" source="Eo5dm-Wqf6loFh02fLz2-160" target="Eo5dm-Wqf6loFh02fLz2-155">
           <mxGeometry relative="1" as="geometry" />
@@ -230,20 +230,32 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-167" value="&lt;div&gt;int rpmsg_sample_probe(struct rpmsg_device *rpdev) &lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; struct instance_data *idata;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; idata = devm_kzalloc(&amp;amp;rpdev-&amp;gt;dev,sizeof(*idata),GFP_KERNEL);&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp; dev_set_drvdata(&amp;amp;rpdev-&amp;gt;dev, idata); &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; /* send a message to our remote processor */&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#FF0080&quot;&gt;rpmsg_send(rpdev-&amp;gt;ept, MSG, strlen(MSG));&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ...&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-154">
-          <mxGeometry x="10" y="380" width="480" height="190" as="geometry" />
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-167" value="&lt;div&gt;int rpmsg_sample_probe(struct rpmsg_device *rpdev) &lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ...&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; /* send a message to our remote processor */&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#FF0080&quot;&gt;rpmsg_send(rpdev-&amp;gt;ept, MSG, strlen(MSG));&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ...&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-154">
+          <mxGeometry x="60" y="390" width="360" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#000000;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-154" source="Eo5dm-Wqf6loFh02fLz2-157">
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#000000;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-154" source="Eo5dm-Wqf6loFh02fLz2-157" target="Eo5dm-Wqf6loFh02fLz2-167">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="455" as="targetPoint" />
             <Array as="points">
               <mxPoint x="540" y="191" />
-              <mxPoint x="540" y="455" />
+              <mxPoint x="540" y="445" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-170" value="&lt;div&gt;int rpmsg_sample_probe(struct rpmsg_device *rpdev) &lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; struct instance_data *idata;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; idata = devm_kzalloc(&amp;amp;rpdev-&amp;gt;dev,sizeof(*idata),GFP_KERNEL);&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; /* send a message to our remote processor */&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#FF0080&quot;&gt;rpmsg_send(rpdev-&amp;gt;ept, MSG, strlen(MSG));&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ...&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-154">
-          <mxGeometry x="10" y="600" width="480" height="150" as="geometry" />
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-171" value="#define MSG&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;hello world!&quot;&lt;br&gt;#define MSG_LIMIT&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 100&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-154">
+          <mxGeometry x="70" y="670" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-172" value="&lt;div&gt;int rpmsg_sample_probe(struct rpmsg_device *rpdev) &lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ...&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; /* send a new message now */&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#FF0080&quot;&gt;rpmsg_send(rpdev-&amp;gt;ept, MSG, strlen(MSG));&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ...&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-154">
+          <mxGeometry x="60" y="520" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-154" source="Eo5dm-Wqf6loFh02fLz2-158" target="Eo5dm-Wqf6loFh02fLz2-172">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="217" />
+              <mxPoint x="480" y="575" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
