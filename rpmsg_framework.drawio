@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-07-23T06:32:51.212Z" agent="5.0 (Windows)" etag="udmcBcOTEUER-hE4ysd5" version="13.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-23T07:41:36.568Z" agent="5.0 (Windows)" etag="5GJh7qS-Y9H7qxslCdjH" version="13.4.9" type="github">
   <diagram id="En-_3escWLUhismutuOt" name="第 1 页">
-    <mxGraphModel dx="1730" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-63" value="include/linux/rpmsg.h" style="swimlane;fontStyle=0;fontFamily=Lucida Console;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="1280" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-51" value="struct rpmsg_endpoint" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-51" value="struct rpmsg_endpoint" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fontColor=#FF00FF;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
           <mxGeometry x="1000" y="70" width="240" height="208" as="geometry">
             <mxRectangle x="150" y="130" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -33,7 +33,7 @@
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-58" value="const struct rpmsg_endpoint_ops *ops;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;fontColor=#EA6B66;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-51">
           <mxGeometry y="182" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-39" value="struct rpmsg_device" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-39" value="struct rpmsg_device" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fontColor=#FF00FF;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
           <mxGeometry x="520" y="70" width="260" height="208" as="geometry">
             <mxRectangle x="150" y="130" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -59,7 +59,7 @@
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-46" value="const struct rpmsg_device_ops *ops;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;fontColor=#EA6B66;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-39">
           <mxGeometry y="182" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-34" value="struct rpmsg_driver" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-34" value="struct rpmsg_driver" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fontColor=#FF00FF;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
           <mxGeometry x="30" y="70" width="330" height="156" as="geometry">
             <mxRectangle x="150" y="130" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -85,7 +85,7 @@
             <mxPoint x="530" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-73" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;rpmsg_dev_match&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#EA6B66;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-73" value="&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;rpmsg_dev_match&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#EA6B66;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
           <mxGeometry x="380" y="110" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-63" source="Eo5dm-Wqf6loFh02fLz2-44" target="Eo5dm-Wqf6loFh02fLz2-51">
@@ -99,22 +99,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-150" value="&lt;div&gt;rpmsg_driver和&lt;/div&gt;&lt;div&gt;rpmsg_device匹配时，&lt;/div&gt;&lt;div&gt;比较的是.name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_table.name和 &lt;br&gt;&lt;/div&gt;&lt;div&gt;id.name做 strncmp&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
-          <mxGeometry x="370" y="148" width="140" height="92" as="geometry" />
+          <mxGeometry x="360" y="186" width="140" height="92" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eo5dm-Wqf6loFh02fLz2-46" target="Eo5dm-Wqf6loFh02fLz2-85">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="460" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="520" y="305" />
-              <mxPoint x="520" y="440" />
-              <mxPoint x="680" y="440" />
+              <mxPoint x="680" y="350" />
+              <mxPoint x="680" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-76" value="drivers/rpmsg/rpmsg_internal.h" style="swimlane;fontStyle=0;fontFamily=Lucida Console;" vertex="1" parent="1">
           <mxGeometry x="440" y="400" width="880" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-105" value="struct rpmsg_endpoint_ops" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-76">
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-105" value="struct rpmsg_endpoint_ops" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fontColor=#FF00FF;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-76">
           <mxGeometry x="600" y="80" width="240" height="234" as="geometry">
             <mxRectangle x="150" y="130" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -143,7 +142,7 @@
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-128" value="poll()" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-105">
           <mxGeometry y="208" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-85" value="struct rpmsg_device_ops" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-76">
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-85" value="struct rpmsg_device_ops" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fontColor=#FF00FF;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-76">
           <mxGeometry x="120" y="80" width="240" height="104" as="geometry">
             <mxRectangle x="150" y="130" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -168,30 +167,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-131" value="samples/renesas_taurus_client/taurus_client_sample.c" style="swimlane;fontStyle=0;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1080" width="490" height="600" as="geometry" />
+          <mxGeometry x="880" y="1260" width="490" height="710" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-145" value="struct rpmsg_driver taurus_sample_client" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-131">
-          <mxGeometry x="80" y="50" width="240" height="130" as="geometry">
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontColor=#000000;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-131" source="Eo5dm-Wqf6loFh02fLz2-175" target="Eo5dm-Wqf6loFh02fLz2-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-175" value="module_rpmsg_driver(taurus_sample_client);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-131">
+          <mxGeometry x="85" y="40" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-145" value="struct rpmsg_driver taurus_sample_client" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fontColor=#FF0080;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-131">
+          <mxGeometry x="115" y="100" width="260" height="156" as="geometry">
             <mxRectangle x="150" y="130" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-146" value=".drv.name  = KBUILD_MODNAME," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-145">
-          <mxGeometry y="26" width="240" height="26" as="geometry" />
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-174" value=".id_table       = taurus_driver_sample_id_table," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;fontColor=#FF0080;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-145">
+          <mxGeometry y="52" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-147" value=".probe     = taurus_sample_probe," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-145">
-          <mxGeometry y="52" width="240" height="26" as="geometry" />
+          <mxGeometry y="78" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-148" value=".callback  = taurus_sample_cb," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-145">
-          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-148" value=".callback  = taurus_sample_cb," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;fontColor=#FF0080;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-145">
+          <mxGeometry y="104" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-149" value=".remove        = taurus_sample_remove," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-145">
-          <mxGeometry y="104" width="240" height="26" as="geometry" />
+          <mxGeometry y="130" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-151" value="&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;How to write rpmsg drivers?&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;---------------------------&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;/b&gt;&lt;/font&gt;Documentation/rpmsg.txt&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;samples/rpmsg/rpmsg_client_sample.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;samples/renesas_taurus_client/taurus_client_sample.c&lt;br&gt;&lt;/div&gt;&lt;div&gt;drivers/gpu/drm/rcar-rvgc/rcar_rvgc_drv.c&lt;/div&gt;&lt;div&gt;drivers/net/can/rcar-taurus/rcar_taurus_can.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 0)&quot;&gt;TODO:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sound/soc/sh/rcar-taurus/*&lt;/div&gt;&lt;div&gt;-------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;module_rpmsg_driver(&lt;font color=&quot;#EA6B66&quot;&gt;&lt;i&gt;rpmsg_driver&lt;/i&gt;&lt;/font&gt;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; register_rpmsg_driver(rpmsg_driver)&lt;br&gt;&lt;/div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; __register_rpmsg_driver(rpmsg_driver, THIS_MODULE)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="80" y="760" width="480" height="280" as="geometry" />
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-179" value="&lt;div align=&quot;left&quot;&gt;static struct rpmsg_device_id taurus_driver_sample_id_table[] = {&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; { &lt;font color=&quot;#FF0080&quot;&gt;.name = &quot;taurus-virtdev&quot;&lt;/font&gt; },&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; { },&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;};&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-131">
+          <mxGeometry x="40" y="290" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontColor=#000000;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-131" source="Eo5dm-Wqf6loFh02fLz2-174" target="Eo5dm-Wqf6loFh02fLz2-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-151" value="&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;How to write rpmsg drivers?&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;---------------------------&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;/b&gt;&lt;/font&gt;Documentation/rpmsg.txt&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;samples/rpmsg/rpmsg_client_sample.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;samples/renesas_taurus_client/taurus_client_sample.c&lt;br&gt;&lt;/div&gt;&lt;div&gt;drivers/gpu/drm/rcar-rvgc/rcar_rvgc_drv.c&lt;/div&gt;&lt;div&gt;drivers/net/can/rcar-taurus/rcar_taurus_can.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 0)&quot;&gt;TODO:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sound/soc/sh/rcar-taurus/*&lt;/div&gt;&lt;div&gt;-------------------------------------&lt;/div&gt;&lt;div&gt;构造一个rpmsg_driver结构体&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;注册: &lt;font color=&quot;#0000FF&quot;&gt;&lt;i&gt;register an rpmsg driver with the rpmsg bus.&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;module_rpmsg_driver(&lt;font color=&quot;#EA6B66&quot;&gt;&lt;i&gt;rpmsg_driver&lt;/i&gt;&lt;/font&gt;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; register_rpmsg_driver(rpmsg_driver)&lt;br&gt;&lt;/div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; __register_rpmsg_driver(rpmsg_driver, THIS_MODULE)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="200" y="950" width="480" height="430" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-154" value="samples/rpmsg/rpmsg_client_sample.c" style="swimlane;fontStyle=0;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1070" width="570" height="730" as="geometry" />
+          <mxGeometry x="190" y="1390" width="570" height="730" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontColor=#000000;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-154" source="Eo5dm-Wqf6loFh02fLz2-160" target="Eo5dm-Wqf6loFh02fLz2-155">
           <mxGeometry relative="1" as="geometry" />
@@ -199,7 +213,7 @@
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-160" value="module_rpmsg_driver(rpmsg_sample_client);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-154">
           <mxGeometry x="60" y="50" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-155" value="struct rpmsg_driver taurus_sample_client" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-154">
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-155" value="struct rpmsg_driver taurus_sample_client" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fontColor=#FF0080;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-154">
           <mxGeometry x="90" y="100" width="260" height="156" as="geometry">
             <mxRectangle x="150" y="130" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -256,6 +270,72 @@
               <mxPoint x="480" y="575" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-182" value="drivers/rpmsg/rpmsg_core.c" style="swimlane;fontStyle=0;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="970" width="780" height="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-195" value="&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&lt;i&gt;/* register an rpmsg driver with the rpmsg bus */&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;int &lt;font color=&quot;#FF0080&quot;&gt;__register_rpmsg_driver&lt;/font&gt;(struct rpmsg_driver *rpdrv, struct module *owner)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; rpdrv-&amp;gt;drv.bus = &amp;amp;&lt;font color=&quot;#FF0080&quot;&gt;rpmsg_bus&lt;/font&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; rpdrv-&amp;gt;drv.owner = owner;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return driver_register(&amp;amp;rpdrv-&amp;gt;drv);&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-182">
+          <mxGeometry x="30" y="30" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-197" value="int &lt;font color=&quot;#FF0080&quot;&gt;rpmsg_register_device&lt;/font&gt;(struct rpmsg_device *rpdev)&lt;br&gt;{&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; struct device *dev = &amp;amp;rpdev-&amp;gt;dev;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; int ret;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; dev_set_name(&amp;amp;rpdev-&amp;gt;dev, &quot;%s.%s.%d.%d&quot;, dev_name(dev-&amp;gt;parent),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; rpdev-&amp;gt;id.name, rpdev-&amp;gt;src, rpdev-&amp;gt;dst);&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; rpdev-&amp;gt;dev.bus = &amp;amp;&lt;font color=&quot;#FF0080&quot;&gt;rpmsg_bus&lt;/font&gt;;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ret = device_register(&amp;amp;rpdev-&amp;gt;dev);&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (ret) {&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; dev_err(dev, &quot;device_register failed: %d\n&quot;, ret);&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; put_device(&amp;amp;rpdev-&amp;gt;dev);&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return ret;&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-182">
+          <mxGeometry x="30" y="160" width="520" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-199" value="struct bus_type rpmsg_bus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fontColor=#FF0080;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-182">
+          <mxGeometry x="130" y="650" width="260" height="182" as="geometry">
+            <mxRectangle x="150" y="130" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-200" value=".name           = &quot;rpmsg&quot;," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-199">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontColor=#FF00FF;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-199" source="Eo5dm-Wqf6loFh02fLz2-201" target="Eo5dm-Wqf6loFh02fLz2-203">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-80" y="65" />
+              <mxPoint x="-80" y="143" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-201" value=".match          = rpmsg_dev_match," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;fontColor=#FF0080;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-199">
+          <mxGeometry y="52" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-202" value=".dev_groups     = rpmsg_dev_groups," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-199">
+          <mxGeometry y="78" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-211" value=".uevent         = rpmsg_uevent," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-199">
+          <mxGeometry y="104" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-203" value=".probe          = rpmsg_dev_probe," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;fontColor=#FF0080;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-199">
+          <mxGeometry y="130" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-204" value=".remove         = rpmsg_dev_remove," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-199">
+          <mxGeometry y="156" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-212" value="&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#0000FF&quot;&gt;/* match rpmsg channel and rpmsg driver */&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#0000FF&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;static int &lt;font color=&quot;#FF0080&quot;&gt;rpmsg_dev_match&lt;/font&gt;(struct device *dev, struct device_driver *drv)&lt;br&gt;{&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; struct &lt;font color=&quot;#FF0080&quot;&gt;rpmsg_device&lt;/font&gt; *rpdev = to_rpmsg_device(dev);&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; struct &lt;font color=&quot;#FF0080&quot;&gt;rpmsg_driver&lt;/font&gt; *rpdrv = to_rpmsg_driver(drv);&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; const struct rpmsg_device_id *ids = rpdrv-&amp;gt;id_table;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; unsigned int i;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (rpdev-&amp;gt;driver_override)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return !strcmp(rpdev-&amp;gt;driver_override, drv-&amp;gt;name);&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (ids)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; for (i = 0; ids[i].name[0]; i++)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (&lt;font color=&quot;#FF0080&quot;&gt;rpmsg_id_match&lt;/font&gt;(rpdev, &amp;amp;ids[i]))&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return 1;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return of_driver_match_device(dev, drv);&lt;br&gt;}&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#0000FF&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#0000FF&quot;&gt;/* rpmsg devices and drivers are matched using the service name */&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#0000FF&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;static inline int rpmsg_id_match(const struct rpmsg_device *rpdev,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; const struct rpmsg_device_id *id)&lt;br&gt;{&lt;br&gt;&amp;nbsp; return strncmp(&lt;font color=&quot;#FF0080&quot;&gt;id-&amp;gt;name&lt;/font&gt;, &lt;font color=&quot;#FF0080&quot;&gt;rpdev-&amp;gt;id.name&lt;/font&gt;, RPMSG_NAME_SIZE) == 0; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;}&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-182">
+          <mxGeometry x="60" y="870" width="560" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-213" value="static int __init rpmsg_init(void)&lt;br&gt;{&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; int ret;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ret = &lt;font color=&quot;#FF0080&quot;&gt;bus_register(&amp;amp;rpmsg_bus);&lt;/font&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (ret)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; pr_err(&quot;failed to register rpmsg bus: %d\n&quot;, ret);&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return ret;&lt;br&gt;}&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-182">
+          <mxGeometry x="30" y="450" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-196" value="&lt;div&gt;&lt;font color=&quot;#FF00FF&quot;&gt;在rpmsg_bus上注册rpmsg_driver&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eo5dm-Wqf6loFh02fLz2-175" target="Eo5dm-Wqf6loFh02fLz2-195">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="980.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#FF00FF;" edge="1" parent="1" source="Eo5dm-Wqf6loFh02fLz2-150" target="Eo5dm-Wqf6loFh02fLz2-212">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1730" y="2037.0588235294117" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="380" />
+              <mxPoint x="370" y="380" />
+              <mxPoint x="370" y="840" />
+              <mxPoint x="1690" y="840" />
+              <mxPoint x="1690" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-219" value="&lt;div&gt;rpmsg_driver和&lt;/div&gt;&lt;div&gt;rpmsg_device的.name匹配成功后，&lt;/div&gt;&lt;div&gt;会调用rpmsg_bus.rpmsg_dev_probe&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1590" width="190" height="92" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
