@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-07-24T05:30:01.917Z" agent="5.0 (Windows)" etag="yjLIRJNXGhbc9-3xqH0T" version="13.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-24T05:54:28.714Z" agent="5.0 (Windows)" etag="8nYjCBckipRky3WzFbc8" version="13.4.9" type="github">
   <diagram id="En-_3escWLUhismutuOt" name="第 1 页">
-    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="8000" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="8000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-63" value="include/linux/rpmsg.h" style="swimlane;fontStyle=0;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="1280" height="320" as="geometry" />
+          <mxGeometry x="40" y="40" width="1790" height="320" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-51" value="struct rpmsg_endpoint" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#6c8ebf;fontColor=#FF00FF;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
           <mxGeometry x="1000" y="70" width="240" height="208" as="geometry">
@@ -100,6 +100,22 @@
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-150" value="&lt;div&gt;rpmsg_driver和&lt;/div&gt;&lt;div&gt;rpmsg_device匹配时，&lt;/div&gt;&lt;div&gt;比较的是.name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_table.name和 &lt;br&gt;&lt;/div&gt;&lt;div&gt;id.name做 strncmp&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
           <mxGeometry x="360" y="186" width="140" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-229" value="if set, rpmsg will announce the creation/removal of this channel" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
+          <mxGeometry x="810" y="166" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#FF00FF;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-63" source="Eo5dm-Wqf6loFh02fLz2-45" target="Eo5dm-Wqf6loFh02fLz2-229">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-231" value="&amp;nbsp;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* @rpdev: rpmsg channel device&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* @refcount: when this drops to zero, the ept is deallocated&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* @cb: rx callback handler&lt;br&gt;&amp;nbsp;* @cb_lock: must be taken before accessing/changing @cb&lt;br&gt;&amp;nbsp;* @&lt;font color=&quot;#FF0080&quot;&gt;addr: local rpmsg address&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* @priv: private data for the driver&#39;s use&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;&amp;nbsp; 从本质上来讲，rpmsg endpoint代表了rpmsg bus上的一个listener，因为它&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;将rpmsg address和rx callback handler绑定在一起。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;&amp;nbsp; 简单的rpmsg driver驱动不应该直接使用这个结构体，因为事情是这样：每一个&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;rpmsg driver在注册到rpmsg bus时，都会提供一个rx callback，当驱动被probe时，该callback会被绑定到它的rpmsg address。当相关的inbound messages到达时（即消息的dst address等于rpmsg channel的src address），驱动程序的处理程序被调用来处理它。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;&amp;nbsp; 更复杂的rpmsg driver，如果需要分配额外的rpmsg地址，并将它们绑定到不同的rx callback，就必须自己显示地创建额外的endpoint（参见rpmsg_create_ept()）&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
+          <mxGeometry x="1290" y="29" width="470" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.455;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontColor=#FF00FF;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-63" source="Eo5dm-Wqf6loFh02fLz2-54" target="Eo5dm-Wqf6loFh02fLz2-231">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eo5dm-Wqf6loFh02fLz2-46" target="Eo5dm-Wqf6loFh02fLz2-85">
           <mxGeometry relative="1" as="geometry">
