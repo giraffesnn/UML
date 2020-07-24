@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-24T02:11:29.630Z" agent="5.0 (Windows)" etag="auG2R-LA2ZjkM0hWjuXG" version="13.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-24T02:13:30.082Z" agent="5.0 (Windows)" etag="gmf3X1Zl6Mbwm9qyoMWd" version="13.4.9" type="github">
   <diagram id="En-_3escWLUhismutuOt" name="第 1 页">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="8000" math="0" shadow="0">
+    <mxGraphModel dx="716" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="8000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -288,14 +288,6 @@
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-200" value=".name           = &quot;rpmsg&quot;," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-199">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontColor=#FF00FF;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-199" source="Eo5dm-Wqf6loFh02fLz2-201" target="Eo5dm-Wqf6loFh02fLz2-203">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-80" y="65" />
-              <mxPoint x="-80" y="143" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-201" value=".match          = rpmsg_dev_match," style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2;fontColor=#FF0080;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-199">
           <mxGeometry y="52" width="260" height="26" as="geometry" />
         </mxCell>
@@ -340,11 +332,17 @@
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-224" value="&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;/* rpmsg_create_ept() - create a new rpmsg_endpoint&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* 系统中的每一个rpmsg address通过rpmsg_endpoint结构体，绑定到一个rx callback&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* （所以当inbound messages到达时，它们会被rpmsg bus使用适当的回调处理程序派发）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;*&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* 这个函数允许驱动创建一个endpoint，它绑定一个callback和一些可能的私有数据到一个&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* rpmsg address（可以是事先知道的，也可以是动态分配的）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;*&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* 简单的rpmsg driver不需要调用rpmsg_create_ept， 因为在rpmsg bus的probe函数中，已&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* 经为它创建了an endpoint（使用rpmsg driver注册到rpmsg bus上时提供的rx callback）&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* 因此，对于简单的rpmsg driver来说：它们已经有了一个endpoint,它们的rx callback&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* 绑定到它们的rpmsg address，当相关的inbound messages到达时（即它们的dst地址等于&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;* rpmsg channel的src地址）&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&amp;nbsp;*/&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;struct rpmsg_endpoint *rpmsg_create_ept(struct rpmsg_device *rpdev,&lt;/div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; rpmsg_rx_cb_t cb, void *priv,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; struct rpmsg_channel_info chinfo)&lt;br&gt;{&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (WARN_ON(!rpdev))&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return NULL;&lt;br&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return &lt;font color=&quot;#FF0080&quot;&gt;rpdev-&amp;gt;ops-&amp;gt;create_ept(rpdev, cb, priv, chinfo);&lt;/font&gt;&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-182">
           <mxGeometry x="780" y="880" width="560" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-225" value="&lt;div&gt;rpmsg_driver和&lt;/div&gt;&lt;div&gt;rpmsg_device的.name匹配成功后，&lt;/div&gt;&lt;div&gt;会调用rpmsg_bus.rpmsg_dev_probe&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-182">
-          <mxGeometry x="1360" y="1000" width="190" height="92" as="geometry" />
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-225" value="&lt;div&gt;src: local address&lt;/div&gt;&lt;div&gt;dst: destination address&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-182">
+          <mxGeometry x="1350" y="1052" width="190" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontColor=#FF00FF;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-182" source="Eo5dm-Wqf6loFh02fLz2-219" target="Eo5dm-Wqf6loFh02fLz2-203">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-219" value="&lt;div&gt;rpmsg_driver和&lt;/div&gt;&lt;div&gt;rpmsg_device的.name匹配成功后，会调用rpmsg_bus.rpmsg_dev_probe&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontFamily=Lucida Console;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-182">
-          <mxGeometry x="-100" y="640" width="190" height="70" as="geometry" />
+          <mxGeometry x="-100" y="690" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontColor=#FF00FF;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-182" source="Eo5dm-Wqf6loFh02fLz2-201" target="Eo5dm-Wqf6loFh02fLz2-219">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-196" value="&lt;div&gt;&lt;font color=&quot;#FF00FF&quot;&gt;在rpmsg_bus上注册rpmsg_driver&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eo5dm-Wqf6loFh02fLz2-175" target="Eo5dm-Wqf6loFh02fLz2-195">
           <mxGeometry relative="1" as="geometry">
