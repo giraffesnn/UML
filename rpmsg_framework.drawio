@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-24T05:54:28.714Z" agent="5.0 (Windows)" etag="8nYjCBckipRky3WzFbc8" version="13.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-24T08:20:01.948Z" agent="5.0 (Windows)" etag="XR5SVNdfBDZjWNJRcXNe" version="13.4.9" type="github">
   <diagram id="En-_3escWLUhismutuOt" name="第 1 页">
-    <mxGraphModel dx="1483" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="8000" math="0" shadow="0">
+    <mxGraphModel dx="5190" dy="2735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="8000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
             <mxPoint x="530" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Eo5dm-Wqf6loFh02fLz2-73" value="&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;rpmsg_dev_match&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#EA6B66;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
+        <mxCell id="Eo5dm-Wqf6loFh02fLz2-73" value="&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;rpmsg bus:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF00FF&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;rpmsg_dev_match&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#EA6B66;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-63">
           <mxGeometry x="380" y="110" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-63" source="Eo5dm-Wqf6loFh02fLz2-44" target="Eo5dm-Wqf6loFh02fLz2-51">
@@ -288,7 +288,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-182" value="drivers/rpmsg/rpmsg_core.c" style="swimlane;fontStyle=0;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="970" width="1630" height="2380" as="geometry" />
+          <mxGeometry x="1810" y="970" width="1630" height="2980" as="geometry" />
         </mxCell>
         <mxCell id="Eo5dm-Wqf6loFh02fLz2-195" value="&lt;div&gt;&lt;font color=&quot;#0000FF&quot;&gt;&lt;i&gt;/* register an rpmsg driver with the rpmsg bus */&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;int &lt;font color=&quot;#FF0080&quot;&gt;__register_rpmsg_driver&lt;/font&gt;(struct rpmsg_driver *rpdrv, struct module *owner)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; rpdrv-&amp;gt;drv.bus = &amp;amp;&lt;font color=&quot;#FF0080&quot;&gt;rpmsg_bus&lt;/font&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; rpdrv-&amp;gt;drv.owner = owner;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return driver_register(&amp;amp;rpdrv-&amp;gt;drv);&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontColor=#000000;shadow=0;labelBackgroundColor=#FFF4C3;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-182">
           <mxGeometry x="30" y="30" width="600" height="100" as="geometry" />
