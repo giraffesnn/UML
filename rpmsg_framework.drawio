@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T08:53:50.030Z" agent="5.0 (Windows)" etag="bmcRz3m1siTo3U3ckOfB" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-27T09:11:34.920Z" agent="5.0 (Windows)" etag="gd02DLtqM1jPN0d-TBcV" version="13.5.3" type="github">
   <diagram id="En-_3escWLUhismutuOt" name="第 1 页">
-    <mxGraphModel dx="7985" dy="4208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="8000" math="0" shadow="0">
+    <mxGraphModel dx="4152" dy="2188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="8000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -460,7 +460,7 @@
         <mxCell id="rIxsQ2cH_EEwt95zl_0N-8" value="&lt;font color=&quot;#000000&quot;&gt;static const struct &lt;font color=&quot;#FF0080&quot;&gt;rpmsg_device_ops&lt;/font&gt; virtio_rpmsg_ops = {&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; .create_ept = &lt;font color=&quot;#FF0080&quot;&gt;virtio_rpmsg_create_ept&lt;/font&gt;,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; .announce_create = virtio_rpmsg_announce_create,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; .announce_destroy = virtio_rpmsg_announce_destroy,&lt;br&gt;};&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=#FFF4C3;fontFamily=Lucida Console;fontColor=#FF0080;" vertex="1" parent="Eo5dm-Wqf6loFh02fLz2-243">
           <mxGeometry x="90" y="1160" width="545" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="rIxsQ2cH_EEwt95zl_0N-10" value="" style="endArrow=classic;html=1;entryX=0.441;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-243" target="rIxsQ2cH_EEwt95zl_0N-6">
+        <mxCell id="rIxsQ2cH_EEwt95zl_0N-10" value="" style="endArrow=classic;html=1;entryX=0.441;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Eo5dm-Wqf6loFh02fLz2-243" source="rIxsQ2cH_EEwt95zl_0N-1" target="rIxsQ2cH_EEwt95zl_0N-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="820" y="770" as="sourcePoint" />
             <mxPoint x="930" y="850" as="targetPoint" />
